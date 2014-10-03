@@ -24,6 +24,7 @@ int main(void) {
 
 	int brillo = 0;
 	int flag = 0;
+	float acc_x;
 
 	while (1) {
 
@@ -46,7 +47,7 @@ int main(void) {
 		else
 			brillo--;
 
-
+		acc_x = bsp_get_acc('x');
 
 	}
 }
